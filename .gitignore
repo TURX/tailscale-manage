@@ -1,0 +1,18 @@
+# Local environment overrides
+.env
+.env.local
+.env.*.local
+
+# Tailscale userspace runtime state
+nets/*/tailscaled.log
+nets/*/tailscaled.state
+nets/*/tailscaled.sock
+nets/*/tailscaled.pid
+nets/*/runtime.lock
+nets/*/runtime.lockdir/
+nets/*/reconnect.stamp
+nets/*/proxy.listen
+
+# OS/editor noise
+.DS_Store
+*.swp
